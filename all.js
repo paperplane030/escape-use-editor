@@ -42,7 +42,7 @@ const quill = new Quill('#editor', {
       ['image'],
       ['link'],
       [{ 'list': 'ordered'}, { 'list': 'bullet' }], 
-      [{ 'size': ['small', false, 'large', 'huge'] }], 
+      [{ 'size': ['12px', '14px', '16px', '18px', '20px', '24px', '28px'] }],
       [{ 'color': [] }, { 'background': [] }], 
       [{ 'align': [] }], 
       [ 'clean' ], 
